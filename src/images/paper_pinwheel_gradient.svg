@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="bladeGradient" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#05BFE5"/>
+      <stop offset="52%" stop-color="#80BCEB"/>
+      <stop offset="100%" stop-color="#EBA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four swept paper blades, all turning in the same direction -->
+  <g fill="url(#bladeGradient)">
+    <path d="M 500,500
+             L 405,118
+             C 493,88 581,82 625,139
+             C 670,197 641,300 593,368
+             C 563,411 526,463 500,500 Z"/>
+    <path d="M 500,500
+             L 882,405
+             C 912,493 918,581 861,625
+             C 803,670 700,641 632,593
+             C 589,563 537,526 500,500 Z"/>
+    <path d="M 500,500
+             L 595,882
+             C 507,912 419,918 375,861
+             C 330,803 359,700 407,632
+             C 437,589 474,537 500,500 Z"/>
+    <path d="M 500,500
+             L 118,595
+             C 88,507 82,419 139,375
+             C 197,330 300,359 368,407
+             C 411,437 463,474 500,500 Z"/>
+  </g>
+</svg>
